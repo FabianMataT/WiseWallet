@@ -6,8 +6,8 @@
                     <div class="px-3 py-1 text-left text-xs font-medium text-black uppercase tracking-wider">
                         {{__("Category:")}} <span class="font-bold text-gray-700">{{$outcome->categorie->categoria}}</span>
                     </div>
-                    <div class="px-3 py-1 text-left text-xs font-medium text-black uppercase tracking-wider">
-                        {{__("Name:")}} <span class="font-bold text-gray-700">{{$outcome->outcome_description}}</span>
+                    <div class="px-3 py-1 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        {{__("Description")}}: <span class="font-bold text-gray-700">{{$outcome->outcome_description}}</span>
                     </div>
                     <div class="px-3 py-1 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         {{__("Date")}}: <span class="font-normal text-gray-700">{{$outcome->outcome_date->format('d/m/Y')}}</span>
