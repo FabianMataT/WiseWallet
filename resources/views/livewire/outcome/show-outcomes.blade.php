@@ -13,7 +13,7 @@
                         {{__("Date")}}: <span class="font-normal text-gray-700">{{$outcome->outcome_date->format('d/m/Y')}}</span>
                     </div>
                     <div class="px-3 py-1 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        {{__("Amount")}}: <span class="font-normal text-gray-700">{{$outcome->outcome_amount}}</span>
+                        {{__("Amount")}}: <span class="font-normal text-gray-700">{{ number_format($outcome->outcome_amount, 0, ',', '.')}}</span>
                     </div>
                     <div class="px-3 py-1 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         {{__("Cash Flow")}}: 

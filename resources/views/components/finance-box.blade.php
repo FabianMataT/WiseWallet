@@ -4,7 +4,7 @@
             {{ $title }}
         </h3>
         <h4 class="text-xl text-center text-white italic">
-            {{ $amount }}
+            {{ number_format($amount, 0, ',', '.') }}
         </h4>
     </div>
 </div>
